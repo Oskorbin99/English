@@ -1,4 +1,4 @@
-Abandon/verb/əˈbændə/LEAVE/to leave someone or something somewhere, sometimes not returning to get them/-2/Покидать
+Abandon/verb/əˈbændə/LEAVE/to leave someone or something somewhere, sometimes not returning to get them/-1/Покидать
 Ability/noun/əˈbɪləti/B1/the physical or mental skill or qualities that you need to do something/-1/Способность
 Able/adjective/ˈeɪbl/ˈeɪblB2/to have the ability to do something or the possibility of doing something/-1/Быть в состоянии
 According to/preposition/əˈkɔːdɪŋtuː/B1/based on a particular system or plan/-1/В соответствии с
@@ -51,8 +51,8 @@ Enquire/verb/ɪnˈkwaɪər/-/to ask someone for information about something/-1/�
 Equally/adverb/ˈiːkwəli/-/to the same degree or level/-1/В равной степени
 Even/adverb/ˈiːvən/-/used to emphasize something that is surprising/-1/Даже
 Exact/adjective/ɪɡˈzækt/Accurate/completely correct in every detail/-1/Точный
-Expect/verb/ɪkˈspekt/(SITUATION)/to think that something will happen/-1/Ожидать
 Expect/verb/ɪkˈspekt/B1/to think that something will happen/-1/Ожидать
+Expect/verb/ɪkˈspekt/(SITUATION)/to think that something will happen/-1/Ожидать
 Fairly/adverb/ˈfeəli/Rather/more than average, but less than very/-1/Довольно
 Fasten/verb/ˈfɑːsən/B1/to close or fix something together, or to become closed or fixed together/-1/Скрепить
 Force/noun/fɔːs/B2/physical power or strength/-1/Сила
@@ -103,15 +103,22 @@ Similarly/adverb/ˈsɪmɪləli/-/in a similar way/-1/Так же
 Simple/adjective/ˈsɪm.pəl/A2/not difficult to do or to understand/-1/Простой
 So/adverb/səʊ/A2/used before an adjective or adverb to emphasize what you are saying, especially when there is a particular result/-1/Так
 Solve/verb/sɒlv/Decide/to find the answer to something/-1/Решать
+Spring/noun/sprɪŋ/SEASON/the season of the year between winter and summer/-1/Весна
+Standing/noun/ˈstændɪŋ/B2/Your standing is the opinion that other people have of you/-1/Репутация
 Stare/verb/steər/-/to look at someone or something for a long time and not move your eyes/-1/Пристально смотреть
 Still/adverb/stɪl/-/used to say that something is continuing to happen now or that someone is continuing to do something now/-1/Все еще
 Stomach/noun/ˈstʌmək/ORGAN/the organ inside your body where food goes after it has been eaten and where it starts to be digested/-1/Живот
+Straight/adjective/streɪt/NOT CURVED/not curved or bent/-1/Прямой
 String/noun/strɪŋ/ROPE/very thin rope used for tying things/-1/Веревка
 Stroll/noun/strəʊl/-/-/-1/Прогулка
+Subject/noun/ˈsʌbdʒɪkt/WHAT/what someone is writing or talking about/-1/Предмет
 Suffer/verb/ˈsʌfər/B2/to experience pain or unpleasant emotions/-1/Страдать
 Suggest/verb/səˈdʒest/Offer/to express an idea or plan for someone to consider/-1/Предлагать
 Supply/verb/səˈplaɪ/B2/to provide things that people want or need, often over a long period of time/-1/Снабжать
+Surface/noun/ˈsɜːfɪs/B2/the top or outside part of something/-1/Поверхность
 Surprising/adjective/səˈpraɪzɪŋ/-/not expected and making someone feel surprised/-1/Удивительный
+Sweet/adjective/swiːt/TASTE/with a taste like sugar/-1/Сладкий
+Tall/adjective/tɔːl/BIG/having a greater than average height/-1/Высокий
 Therefore/adverb/ˈðeəfɔːr/B1/for that reason/-1/Следовательно
 Thin/adjective/θɪn/DISTANCE/Something that is thin is smaller than usual between its opposite sides/-1/Тонкий
 Though/conjunction/ðəʊ/Despite/used to introduce a fact or opinion that makes the other part of the sentence seem surprising/-1/Несмотря на
@@ -126,6 +133,7 @@ Turn/verb/tɜːn/MOVE YOUR BODY/to move your body so that you are facing a diffe
 Ugly/adjective/ˈʌɡli/NOT ATTRACTIVE/unpleasant to look at/-1/Уродливый
 Understand/verb/ˌʌndəˈstænd/KNOW MEANING/to know the meaning of something that someone says/-1/Понимать
 Underwear/noun/ˈʌndəweər/B1/the clothes that you wear next to your skin, under your other clothes/-1/Нижнее белье
+Until/preposition/ənˈtɪl/HAPPEN THEN STOP/continuing to happen before a particular time or event and then stopping/-1/До
 Useless/adjective/ˈjuːsləs/B1/If something is useless, it does not work well or it has no effect/-1/Бесполезный
 Vehicle/noun/ˈviːɪkl/B1/something such as a car or bus that takes people from one place to another, especially using roads/-1/Транспортное средство
 Verb/noun/vɜːb/A2/a word that is used to say that someone does something or that something happens./-1/Глагол
@@ -146,8 +154,6 @@ Widowed/adjective/ˈwɪdəʊd/RELATIONSHIP/If someone is widowed, their husband 
 Work out/phrasal verb with work verb/wɜːk/(PROBLEM)/If a problem or difficult situation works out, it gradually becomes better/-1/Решаться
 Worry/verb/ˈwʌri/A2/to think about problems or unpleasant things that might happen in a way that makes you feel anxious/-1/Волноваться
 Would/strong {wʊd} weak {wəd}/modal verb/IF/used to say what might happen if something else happens/-1/Бы
-Wrist/noun/rɪst/BODY/the part of your body between your hand and your arm/-1/Запястье
-﻿Until/preposition/ənˈtɪl/HAPPEN THEN STOP/continuing to happen before a particular time or event and then stopping/-1/До
 Acceptable/adjective/əkˈseptəbl/All right/good enough/3/Приемлемый
 According to/preposition/əˈkɔːdɪŋtuː/B1/as said by someone or shown by somethin/3/Согласно
 Accuse/verb/əˈkjuːz/B2/to say that someone has done something bad/3/Обвинять
@@ -175,17 +181,10 @@ Apparently/adverb/əˈpærəntli/B2/used to say that you have read or been told 
 Appeal/noun/əˈpiːl/B2/a request to the public for money, information, or help/3/Призыв
 Arrangement/noun/əˈreɪndʒmənt/B1/plans for how something will happen/3/Приготовления
 Embarrassed/adjective/ɪmˈbærəst/B1/feeling ashamed or shy/3/Смущенный
-Spring/noun/sprɪŋ/SEASON/the season of the year between winter and summer/3/Весна
-Standing/noun/ˈstændɪŋ/B2/Your standing is the opinion that other people have of you/3/Репутация
 Stiff/adjective/stɪf/Hard/hard and difficult to bend/3/Жесткий
-Straight/adjective/streɪt/NOT CURVED/not curved or bent/3/Прямой
-Subject/noun/ˈsʌbdʒɪkt/WHAT/what someone is writing or talking about/3/Предмет
 Suit/noun/suːt/CLOTHES/a jacket and trousers or a jacket and skirt that are made from the material/3/Костюм
 Sure/adjective/ʃɔːr/CERTAIN,Confident/certain/3/Уверенный
-Surface/noun/ˈsɜːfɪs/B2/the top or outside part of something/3/Поверхность
-Sweet/adjective/swiːt/TASTE/with a taste like sugar/3/Сладкий
 Swimsuit/noun/ˈswɪmsuːt/B1/a piece of clothing that women wear to go swimming/3/Купальник
-Tall/adjective/tɔːl/BIG/having a greater than average height/3/Высокий
 Teeth/noun/tiːθ/MOUTH/one of the hard, white objects in your mouth that you use for biting and crushing food/3/Зубы
 Then/adverb/ðen/A1/at that time/3/Тогда
 Thick/adjective/θɪk/DISTANCE/Something that is thick is larger than usual between its opposite sides/3/Толстый
@@ -204,3 +203,4 @@ Vest/noun/vest/UNDERWEAR/a piece of underwear that you wear under a shirt/3/Жи
 Waist/noun/weɪst/BODY/the part around the middle of your body where you wear a belt/3/Талия
 Weak/adjective/wiːk/BODY/not physically strong/3/Слабый
 Windy/adjective/ˈwɪndi/WEATHER/with a lot of wind/3/Ветренный
+Wrist/noun/rɪst/BODY/the part of your body between your hand and your arm/3/Запястье

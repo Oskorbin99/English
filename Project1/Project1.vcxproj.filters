@@ -29,11 +29,11 @@
     <Text Include="Test.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
-    <Text Include="Reserv.txt">
+    <Text Include="List of words.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
-    <Text Include="ZNO.txt">
-      <Filter>Файлы ресурсов</Filter>
+    <Text Include="Reserv.txt">
+      <Filter>Исходные файлы</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

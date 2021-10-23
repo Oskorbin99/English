@@ -94,7 +94,7 @@ int zrada(string a, string b, string part_of_the_word, int c, string subject_wor
     enter_words = Equalize_word_o(enter_words, Keyboard_layout);
     if (enter_words != a) {
      if (c < 3)   c += 1;
-     if ( Keyboard_layout == "RUS")
+     if (Keyboard_layout == "RUS")
      {
          SetConsoleOutputCP(1251);
          SetConsoleCP(1251);

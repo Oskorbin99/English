@@ -17,11 +17,10 @@ string string_1251_to_utf_8(char* buf) {
     string output1 = "";
     string rus_B = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
     string rus_S = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-
     // A-Рђ Б-Р‘ В- Р’ Г- Р“ Д- Р• Е-Р• Ё-РЃ Ж- З- И- Й- К- Л- М- 
     //Н- О- П- Р- С- Т- У- Ф- Х- Ц- Ч- Ш- Щ- Ъ- Ы- Ь- Э- Я-
     vector <string> rus_utf_8_B = {"Рђ", "Р‘", "Р’","Р“","Р”","Р•","РЃ","Р–","Р—","Р","Р™","Рљ","Р›","Рњ","Рќ","Рћ","Рџ","Р ","РЎ","Рў","РЈ","Р¤","РҐ","Р¦","Р§","РЁ","Р©","РЄ","Р«","Р¬","Р­","Р®","РЇ"};
-    vector <string> rus_utf_8_S = { "Р°", "Р±", "РІ", "Рі", "Рґ", "Рµ", "С‘", "Р¶", "Р·", "Рё", "Р№", "Рє", "Р»", "Рј", "РЅ", "Рѕ", "Рї", "СЂ", "СЃ", "С‚", "Сѓ", "С„", "С…", "С†", "С‡", "С€", "С‰", "СЉ", "С‹", "СЊ", "СЌ", "СЋ", "СЏ" };
+    vector <string> rus_utf_8_S = { "Р°", "Р±", "РІ", "Рі", "Рґ", "Рµ", "С‘", "Р¶", "Р·", "Рё", "Р№", "Рє", "Р»", "Рј", "РЅ", "Рѕ", "Рї", "СЂ", "СЃ", "С‚", "Сѓ", "С„", "С…", "С†", "С‡", "С€", "С‰", "СЉ", "С‹", "СЊ", "СЌ", "СЋ", "СЏ"};
   /*  int k = -1;
     for (int i = 0; i < rus_word.length(); i = i + 2)
     {
@@ -45,6 +44,12 @@ string string_1251_to_utf_8(char* buf) {
             {
                 i--;
                 output1 = output1 + " ";
+                break;
+            }
+            else if (rus == "-")
+            {
+                i--;
+                output1 = output1 + "-";
                 break;
             }
             rus1=rus_word[i+1];
@@ -97,6 +102,12 @@ void read_file(string file, vector<string>& en_word, vector<string>& ru_word, ve
         definition_word.push_back(pch); // создаем новый элемент вектора и туда суем слово
         pch = strtok(NULL, "/"); // Вытаскиваем третье слово, тоесть число 
         string a = pch; // записываем число в стринг
+        if (a != "-1" and a != "0" and a != "1" and a != "2" and a != "3")
+        {
+            setlocale(0, "");
+            cout << "В строке " << count + 1 << " указано неверное количество жизней. " << endl;
+            cout << " Замените на правильные варианты:'-1','0','1','2','3'" << endl;
+        }
         probability_words.push_back(atoi(a.c_str())); // создаем новый элемент вектора и туда суем наше число попутно указывая, что это не слово, а число
         pch = strtok(NULL, "/"); // Вытаскиваем четвертое слово 
          // создаем новый элемент вектора и туда суем слово
@@ -151,14 +162,16 @@ void write_file(string file, vector<string>& en_word, vector<string>& ru_word, v
         }
     }
     int zrada = 0;
+
     for (int k = -1; k <= 3; ++k)
     {
-        for (int i = zrada; probability_words[i] == k; ++i) { // проход
-            for (int j = i + 1; probability_words[j] == k; ++j) { // цикл
+        for (int i = zrada; probability_words[i] == k and i<count-1; ++i) { // проход
+            if (i +1 != count)
+            for (int j = i + 1; probability_words[j] == k ; ++j) { // цикл
                 char a[90], b[90];
                 strcpy(a, en_word[j].c_str());
                 strcpy(b, en_word[i].c_str());
-                if (strcmp(a, b) < 0) { // j-й меньше, его надо поменять с i-м 
+                if (strcmp(a, b) < 0) { // j-й меньше, его надо поменять с i-м
                     //////////////////////////////
                     tmp_word = en_word[i];
                     en_word[i] = en_word[j];
@@ -188,11 +201,12 @@ void write_file(string file, vector<string>& en_word, vector<string>& ru_word, v
                     transcription_word[i] = transcription_word[j];
                     transcription_word[j] = tmp_word;
                 }
+                if (j + 1 == count) break;
             }
             zrada = i + 1;
         }
     }
-    std::ofstream out(file);
+   std::ofstream out(file);
     for (int i = 0; i < en_word.size();  i++)
     {
         if (i != (en_word.size() - 1))
@@ -207,5 +221,7 @@ void write_file(string file, vector<string>& en_word, vector<string>& ru_word, v
             + ru_word[i];
 }
     out.close();
+    
 }
+
 #pragma once
